@@ -1,4 +1,27 @@
 .testimonial {
   border: 1px solid black;
   border-radius: 8px;
+
+  &.t-1 {
+    background-color: var(--purple-500);
+    color: contrast-color(var(--purple-500));
+  }
+
+  &.t-2 {
+    background-color: var(--grey-500);
+    color: contrast-color(var(--grey-500));
+  }
+
+  &.t-3 {
+    background-color: var(--white);
+  }
+
+  &.t-4 {
+    background-color: var(--dark-blue);
+    color: contrast-color(var(--dark-blue));
+  }
+
+  &.t-5 {
+    background-color: var(--white);
+  }
 }
