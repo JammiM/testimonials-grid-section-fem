@@ -1,0 +1,34 @@
+.parent {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.t-1 {
+  background-color: var(--purple-500);
+  color: contrast-color(var(--purple-500));
+  grid-area: 1 / 1 / 2 / 3;
+}
+
+.t-2 {
+  background-color: var(--grey-500);
+  color: contrast-color(var(--grey-500));
+  grid-area: 1 / 3 / 2 / 4;
+}
+
+.t-3 {
+  background-color: var(--white);
+  grid-area: 2 / 1 / 3 / 2;
+}
+
+.t-4 {
+  background-color: var(--dark-blue);
+  color: contrast-color(var(--dark-blue));
+  grid-area: 2 / 2 / 3 / 4;
+}
+
+.t-5 {
+  background-color: var(--white);
+  grid-area: 1 / 4 / 3 / 5;
+}
