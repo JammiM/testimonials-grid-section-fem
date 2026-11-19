@@ -1,6 +1,21 @@
 .testimonial {
+  padding: 20px;
   border: 1px solid black;
   border-radius: 8px;
+
+  &-thumbnail {
+    border-radius: 50%;
+  }
+
+  &-bio-name {
+    font-weight: var(--regular-font-weight);
+  }
+
+  &-quotes {
+    .lead-quote {
+      font-weight: var(--regular-font-weight);
+    }
+  }
 
   &.t-1 {
     background-color: var(--purple-500);
