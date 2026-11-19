@@ -1,7 +1,17 @@
 .testimonial {
   border-radius: 8px;
+  box-shadow: 0 10px 20px rgb(17 24 39 / 42%);
   padding-block: var(--px-25);
   padding-inline: var(--px-25);
+  transition: box-shadow 200ms ease;
+
+  &:hover {
+    box-shadow: 0 10px 20px rgb(17 24 39 / 65%);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    transition: none;
+  }
 
   &-thumbnail {
     border-radius: 50%;
