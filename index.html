@@ -39,18 +39,16 @@
     <main class="parent">
       <section class="testimonial t-1">
         <header class="testimonial-header">
-          <img
-            width="56"
-            height="56"
-            class="testimonial-thumbnail"
-            src="src/assets/image-daniel.jpg"
-            alt="Picture of Daniel Clifford"
-            srcset="
-              src/assets/image-daniel.webp  375w,
-              src/assets/image-daniel.jpg  1440w
-            "
-            sizes="(max-width: 375px) 84vw, (max-width: 1440px) 56vw, 56px"
-          />
+          <picture>
+            <source srcset="src/assets/image-daniel.webp" type="image/webp" />
+            <img
+              width="56"
+              height="56"
+              class="testimonial-thumbnail"
+              src="src/assets/image-daniel.jpg"
+              alt="Picture of Daniel Clifford"
+            />
+          </picture>
 
           <div class="testimonial-bio">
             <p class="testimonial-bio-name">Daniel Clifford</p>
