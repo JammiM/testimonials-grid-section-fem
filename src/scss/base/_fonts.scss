@@ -1,7 +1,9 @@
+@use "../base/variables" as v;
+
 /* barlow-semi-condensed-regular - latin */
 @font-face {
   font-display: swap;
-  font-family: "Barlow Semi Condensed";
+  font-family: "Barlow Semi Condensed Regular";
   font-style: normal;
   font-weight: 400;
   src:
@@ -14,7 +16,7 @@
 /* barlow-semi-condensed-500 - latin */
 @font-face {
   font-display: swap;
-  font-family: "Barlow Semi Condensed";
+  font-family: "Barlow Semi Condensed Medium";
   font-style: normal;
   font-weight: 500;
   src:
@@ -27,7 +29,7 @@
 /* barlow-semi-condensed-600 - latin */
 @font-face {
   font-display: swap;
-  font-family: "Barlow Semi Condensed";
+  font-family: "Barlow Semi Condensed SemiBold";
   font-style: normal;
   font-weight: 600;
   src:
@@ -35,4 +37,36 @@
       format("woff2"),
     url("../../assets/fonts/barlow-semi-condensed-v16-latin-600.ttf")
       format("truetype");
+}
+
+// $barlow-reg-font: "Barlow Semi Condensed Regular", sans-serif;
+// $barlow-med-font: "Barlow Semi Condensed Medium", sans-serif;
+// $barlow-semi-font: "Barlow Semi Condensed SemiBold", sans-serif;
+
+.text-preset-1 {
+  font-family: v.$barlow-semi-font;
+  font-size: 1.25rem; // 20px
+  letter-spacing: 0;
+  line-height: 120%;
+}
+
+.text-preset-2 {
+  font-family: v.$barlow-med-font;
+  font-size: 0.813rem; // 13px
+  letter-spacing: 0;
+  line-height: 110%;
+}
+
+.text-preset-3 {
+  font-family: v.$barlow-med-font;
+  font-size: 0.813rem; // 13px
+  letter-spacing: 0;
+  line-height: 140%;
+}
+
+.text-preset-4 {
+  font-family: v.$barlow-med-font;
+  font-size: 0.688rem; // 11px
+  letter-spacing: 0;
+  line-height: 110%;
 }

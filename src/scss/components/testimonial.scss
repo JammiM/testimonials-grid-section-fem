@@ -1,8 +1,13 @@
+@use "../base/variables" as v;
+
 .testimonial {
+  display: flex;
+  flex-direction: column;
   border-radius: 8px;
   box-shadow: 0 10px 20px rgb(17 24 39 / 42%);
-  padding-block: var(--px-25);
-  padding-inline: var(--px-25);
+  gap: var(--spacing-200);
+  padding-block: var(--spacing-400);
+  padding-inline: var(--spacing-400);
   transition: box-shadow 200ms ease;
 
   &:hover {
@@ -23,6 +28,7 @@
 
   &-quotes {
     .lead-quote {
+      font-size: 1.25rem;
       font-weight: var(--regular-font-weight);
     }
   }

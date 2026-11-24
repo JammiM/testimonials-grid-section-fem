@@ -1,8 +1,11 @@
 $max-em-width: 90em; // 1440px
 $tablet-em-width: 48em; // 768px
 $phone-em-width: 23.4375em; // 375px
-$barlow-font: "Barlow Semi Condensed", sans-serif;
+$barlow-reg-font: "Barlow Semi Condensed Regular", sans-serif;
+$barlow-med-font: "Barlow Semi Condensed Medium", sans-serif;
+$barlow-semi-font: "Barlow Semi Condensed SemiBold", sans-serif;
 
+// prettier-ignore
 :root {
   --purple-50: hsl(260deg 100% 95%);
   --purple-300: hsl(264deg 82% 80%);
@@ -20,4 +23,12 @@ $barlow-font: "Barlow Semi Condensed", sans-serif;
   --px-10: 0.625rem;
   --px-20: 1.25rem;
   --px-25: 1.563rem;
+
+  // Spacing
+  --spacing-500: 2.5rem;  // 40px;
+  --spacing-400: 2rem;    // 32px;
+  --spacing-300: 1.5rem;  // 24px;
+  --spacing-200: 1rem;    // 16px;
+  --spacing-100: 0.5rem;  // 8px;
+  --spacing-50: 0.25rem;  // 4px;
 }
