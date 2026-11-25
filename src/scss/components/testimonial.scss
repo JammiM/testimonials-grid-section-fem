@@ -37,6 +37,13 @@
     background-color: var(--purple-500);
     color: contrast-color(var(--purple-500));
 
+    // Tablet
+    @media (width > v.$tablet-em-width) {
+      background-image: url("../../assets/images/svgs/bg-pattern-quotation.svg");
+      background-position: top right clamp(1.5rem, 8vw, 5rem);
+      background-repeat: no-repeat;
+    }
+
     & > p.testimonial-single-quote.text-preset-3 {
       color: var(--purple-50);
     }
