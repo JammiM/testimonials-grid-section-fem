@@ -36,23 +36,55 @@
   &.t-1 {
     background-color: var(--purple-500);
     color: contrast-color(var(--purple-500));
+
+    & > p.testimonial-single-quote.text-preset-3 {
+      color: var(--purple-50);
+    }
   }
 
   &.t-2 {
     background-color: var(--grey-500);
     color: contrast-color(var(--grey-500));
+
+    & > p.testimonial-single-quote.text-preset-3 {
+      color: var(--grey-100);
+    }
   }
 
   &.t-3 {
     background-color: var(--white);
+
+    & > p.testimonial-single-quote.lead-quote.text-preset-1 {
+      color: var(--grey-500);
+    }
+
+    & > p.testimonial-single-quote.text-preset-3 {
+      color: var(--grey-400);
+    }
   }
 
   &.t-4 {
     background-color: var(--dark-blue);
     color: contrast-color(var(--dark-blue));
+
+    & > p.testimonial-single-quote.lead-quote.text-preset-1 {
+      color: var(--grey-200);
+    }
+
+    & > p.testimonial-single-quote.text-preset-3 {
+      color: var(--grey-100);
+    }
   }
 
   &.t-5 {
     background-color: var(--white);
+
+    & > p.testimonial-single-quote.lead-quote.text-preset-1 {
+      color: var(--grey-500);
+    }
+
+    & > p.testimonial-single-quote.text-preset-3 {
+      color: var(--grey-400);
+    }
   }
 }
