@@ -26,13 +26,6 @@
     font-weight: var(--regular-font-weight);
   }
 
-  &-quotes {
-    .lead-quote {
-      font-size: 1.25rem;
-      font-weight: var(--regular-font-weight);
-    }
-  }
-
   &.t-1 {
     background-color: var(--purple-500);
     color: contrast-color(var(--purple-500));
